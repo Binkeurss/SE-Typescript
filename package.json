@@ -1,0 +1,14 @@
+{
+  "name": "SE-Typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Binkeurss/SE-Typescript.git",
+  "author": "Binkeurss",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+  "build": "tsc && node"
+  }
+}
