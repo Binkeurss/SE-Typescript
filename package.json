@@ -6,9 +6,11 @@
   "author": "Binkeurss",
   "license": "MIT",
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },
   "scripts": {
-  "build": "tsc && node"
+    "build": "tsc && node && ts-node",
+    "run-ts": "tsc %npm_config_tsfile%.ts --outDir ./bin && node ./bin/%npm_config_tsfile:src/=%.js"
   }
 }

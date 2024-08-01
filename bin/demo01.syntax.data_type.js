@@ -13,3 +13,4 @@ console.log("Big int = ".concat(big, " - ").concat(typeof (big)));
 var color = 'light blue';
 color = 'dark red';
 console.log("Color   = ".concat(color, " - ").concat(typeof (color)));
+//# sourceMappingURL=demo01.syntax.data_type.js.map
