@@ -11,6 +11,6 @@
   },
   "scripts": {
     "build": "tsc && node && ts-node",
-    "run-ts": "tsc %npm_config_tsfile%.ts --outDir ./bin && node ./bin/%npm_config_tsfile:src/=%.js"
+    "run-ts": "tsc %npm_config_tsfile%.ts --outDir ./bin --sourceMap && node ./bin/%npm_config_tsfile:src/=%.js"
   }
 }

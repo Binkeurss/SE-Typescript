@@ -1,0 +1,3 @@
+npm run run-ts --tsfile=./src/name_config_tsfile -- dont need .ts
+Example
+npm run run-ts --tsfile=./src/demo12.syntax.type_alias
